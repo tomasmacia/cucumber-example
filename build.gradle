@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    testImplementation 'io.cucumber:cucumber-java:5.6.0'
+    testImplementation 'io.cucumber:cucumber-junit:5.6.0'
+}
+
+repositories {
+    mavenCentral()
+}
